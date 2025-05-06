@@ -1,0 +1,111 @@
+{
+  "settings": {
+    "CUSTOM_REGEXPS": {
+      "基本": "",
+      "基本 (文字入力解答)": "",
+      "基本 (裏表反転カード付き)": "",
+      "基本 (裏表反転カード追加可能)": "",
+      "画像穴埋め問題": "",
+      "穴埋め問題": ""
+    },
+    "FILE_LINK_FIELDS": {
+      "基本": "表面",
+      "基本 (文字入力解答)": "表面",
+      "基本 (裏表反転カード付き)": "表面",
+      "基本 (裏表反転カード追加可能)": "表面",
+      "画像穴埋め問題": "穴埋め箇所",
+      "穴埋め問題": "Text"
+    },
+    "CONTEXT_FIELDS": {},
+    "FOLDER_DECKS": {
+      "Daily": "",
+      "MEMO(Thino)": "",
+      "Template": "",
+      "Zettelkasten": "",
+      "Zettelkasten/FleetingNote": "",
+      "Zettelkasten/IndexNote": "",
+      "Zettelkasten/LiteratureNote": "",
+      "Zettelkasten/PermanentNote": "",
+      "Zettelkasten/LiteratureNote/Kindle": "",
+      "Anki": "",
+      "Anki/Samples": ""
+    },
+    "FOLDER_TAGS": {
+      "Daily": "",
+      "MEMO(Thino)": "",
+      "Template": "",
+      "Zettelkasten": "",
+      "Zettelkasten/FleetingNote": "",
+      "Zettelkasten/IndexNote": "",
+      "Zettelkasten/LiteratureNote": "",
+      "Zettelkasten/PermanentNote": "",
+      "Zettelkasten/LiteratureNote/Kindle": "",
+      "Anki": "",
+      "Anki/Samples": ""
+    },
+    "Syntax": {
+      "Begin Note": "START",
+      "End Note": "END",
+      "Begin Inline Note": "STARTI",
+      "End Inline Note": "ENDI",
+      "Target Deck Line": "TARGET DECK",
+      "File Tags Line": "FILE TAGS",
+      "Delete Note Line": "DELETE",
+      "Frozen Fields Line": "FROZEN"
+    },
+    "Defaults": {
+      "Scan Directory": "",
+      "Tag": "Obsidian_to_Anki",
+      "Deck": "Default",
+      "Scheduling Interval": 0,
+      "Add File Link": false,
+      "Add Context": false,
+      "CurlyCloze": false,
+      "CurlyCloze - Highlights to Clozes": false,
+      "ID Comments": true,
+      "Add Obsidian Tags": false
+    },
+    "IGNORED_FILE_GLOBS": [
+      "**/*.excalidraw.md"
+    ]
+  },
+  "Added Media": [],
+  "File Hashes": {
+    "Anki/Samples/OOP_SOLID.md": "65bf882e23947ea11062d7a38175cbd2",
+    "Anki/README.md": "731af97b53f105867aeb7a00e7fdc5e5",
+    "Template/Obsidian_Setup_Guide.md": "67788fa788f7911415476f135207da84",
+    "README.md": "544377bebc3dac43f2e203920f6a9fc1",
+    "Template/Anki/Samples/OOP_SOLID.md": "65bf882e23947ea11062d7a38175cbd2",
+    "Template/Anki/README.md": "731af97b53f105867aeb7a00e7fdc5e5"
+  },
+  "fields_dict": {
+    "基本": [
+      "表面",
+      "裏面"
+    ],
+    "基本 (文字入力解答)": [
+      "表面",
+      "裏面"
+    ],
+    "基本 (裏表反転カード付き)": [
+      "表面",
+      "裏面"
+    ],
+    "基本 (裏表反転カード追加可能)": [
+      "表面",
+      "裏面",
+      "任意の入力で反転カード追加"
+    ],
+    "画像穴埋め問題": [
+      "穴埋め箇所",
+      "画像",
+      "ヘッダー",
+      "裏面追記",
+      "コメント"
+    ],
+    "穴埋め問題": [
+      "Text",
+      "裏面追記"
+    ]
+  }
+}

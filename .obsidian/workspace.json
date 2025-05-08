@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Template/Obsidian_Setup_Guide.md",
+                "file": "Zettelkasten/LiteratureNote/Blogs/Links.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian_Setup_Guide"
+              "title": "Links"
             }
           }
         ]
@@ -74,8 +74,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -182,8 +181,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2e242e8a1b607412",
+  "active": "b27fb5a3fa5a627a",
   "lastOpenFiles": [
+    "Template/Anki/template.md",
+    "Template/Anki/sample.md",
+    "Template/Anki/OOP_SOLID.md",
+    "Zettelkasten/PermanentNote/Tech/OOP",
+    "Zettelkasten/PermanentNote/Tech",
+    "README.md",
+    "Zettelkasten/LiteratureNote/Blogs/Links.md",
+    "Zettelkasten/LiteratureNote/Blogs",
+    "2025-05-08.md",
+    "Template/Obsidian_Setup_Guide.md",
     "Template/Anki/Samples/OOP_SOLID.md",
     "Template/Anki/Samples",
     "Template/Anki/README.md",
@@ -192,7 +201,6 @@
     "Anki/Samples",
     "Anki/README.md",
     "Anki",
-    "Zettelkasten/LiteratureNote/Kindle",
-    "README.md"
+    "Zettelkasten/LiteratureNote/Kindle"
   ]
 }

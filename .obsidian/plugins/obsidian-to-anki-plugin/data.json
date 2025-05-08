@@ -28,7 +28,10 @@
       "Zettelkasten/PermanentNote": "",
       "Zettelkasten/LiteratureNote/Kindle": "",
       "Anki": "",
-      "Anki/Samples": ""
+      "Anki/Samples": "",
+      "Template/Anki": "",
+      "Template/Anki/Samples": "",
+      "Zettelkasten/LiteratureNote/Blogs": ""
     },
     "FOLDER_TAGS": {
       "Daily": "",
@@ -41,7 +44,10 @@
       "Zettelkasten/PermanentNote": "",
       "Zettelkasten/LiteratureNote/Kindle": "",
       "Anki": "",
-      "Anki/Samples": ""
+      "Anki/Samples": "",
+      "Template/Anki": "",
+      "Template/Anki/Samples": "",
+      "Zettelkasten/LiteratureNote/Blogs": ""
     },
     "Syntax": {
       "Begin Note": "START",
@@ -75,8 +81,10 @@
     "Anki/README.md": "731af97b53f105867aeb7a00e7fdc5e5",
     "Template/Obsidian_Setup_Guide.md": "67788fa788f7911415476f135207da84",
     "README.md": "544377bebc3dac43f2e203920f6a9fc1",
-    "Template/Anki/Samples/OOP_SOLID.md": "65bf882e23947ea11062d7a38175cbd2",
-    "Template/Anki/README.md": "731af97b53f105867aeb7a00e7fdc5e5"
+    "Template/Anki/Samples/OOP_SOLID.md": "fcbb401bb0b112b5cf822837b86bde9d",
+    "Template/Anki/README.md": "2b94a0f95c6c558bcc94de4c60fb2f99",
+    "2025-05-08.md": "d41d8cd98f00b204e9800998ecf8427e",
+    "Zettelkasten/LiteratureNote/Blogs/Links.md": "9cc214b206d444290d6e3c5d00e8aba2"
   },
   "fields_dict": {
     "基本": [

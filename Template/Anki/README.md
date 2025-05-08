@@ -42,16 +42,15 @@ END              # ← 必須
 
 ```markdown
 ---
-deck: 日本史::戦国
-model: Basic
+TARGET DECK: プログラミング::OOP::SOLID
+model: 基本 (裏表反転カード付き)
 fields:
-  Front: 織田信長が天下布武を掲げた都市は？
-  Back: 岐阜
-  Extra: 1567 年、美濃国を平定後に改名した
+  表面: SOLID 原則の "D" は？
+  裏面: Dependency Inversion Principle（依存関係逆転の原則）
 ---
 ```
 
-`model:` と `fields:` を指定すると、Basic 以外の NoteType にも対応できます。
+`model:` と `fields:` を指定すると、複数の NoteType に対応できます。
 
 ---
 
@@ -117,3 +116,14 @@ AnkiConnect 経由で Obsidian → Anki に送信する際、**Markdown → Anki
 
 - [Anki Manual – Key Concepts](https://docs.ankiweb.net/getting-started.html#key-concepts)
 - [Obsidian_to_Anki GitHub](https://github.com/Pseudonium/Obsidian_to_Anki)
+
+### model とは？
+
+`model` は **Anki のノートタイプ名** を指します。
+
+• front-matter で宣言すると、このファイルでモデルを明記していないカードの **デフォルト値** になります。
+• Export to Anki プラグインは front-matter の `model` と `TARGET DECK` がセットで記載されているファイルを **Anki 用ファイル** としてスキャンします。
+• ブロック内 2 行目に別モデルを指定すると front-matter の値を **上書き** できます。
+• `fields_dict` に同名キーが無い、またはフィールド数が一致しないカードはエラーになります。
+
+これにより、「ファイル単位の既定モデル + カード単位の上書き」という柔軟な運用が可能です。
